@@ -35,6 +35,45 @@
 
 <body>
 
+  <!-- Modal Mid -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+        <div class="modal-body">
+          <p>This is a large modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Modal Right -->
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ayy</h4>
+        </div>
+        <div class="modal-body">
+          <p>This is a large modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
     <!-- BOTD Logo -->
     <img id="logo" src="img/Logo.png" alt="Banger" style="width:190px;">
     <!-- jorma logo -->
@@ -44,8 +83,8 @@
     <!-- Navigation -->
 
     <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">PAST BANGERS</a>
-    <a id="menu-toggle-right" href="#" class="btn btn-dark btn-lg toggle">GOT BANGERS?</a>
-    <a id="menu-toggle-mid" href="#" class="btn btn-dark btn-lg toggle">CONTACT</a>
+    <a data-toggle="modal" data-target="#myModal" id="menu-toggle-mid" href="#" class="btn btn-dark btn-lg toggle">CONTACT</a>
+    <a data-toggle="modal" data-target="#myModal2" id="menu-toggle-right" href="#" class="btn btn-dark btn-lg toggle">GOT BANGERS?</a>
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-dark btn-lg pull-right toggle">CLOSE</a>
