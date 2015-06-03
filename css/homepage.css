@@ -307,7 +307,8 @@ hr.small {
     top: 20%;
     position: relative;
     font-family: 'Josefin Slab';
-    font-size: 20pt;
+    font-size: 30pt;
+    font-weight: bold;
     color: #211E5B;
     height: 0px;
     border: 0px;
@@ -315,7 +316,11 @@ hr.small {
     margin: 0px;
 }
 
-
+p {
+    color: black;
+    font-size: 15pt;
+    font-weight: normal;
+}
 
 
 
