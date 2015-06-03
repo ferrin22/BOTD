@@ -1,0 +1,285 @@
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    font-weight: 200;
+    color: #fff;
+    font-family:"Adobe Garamond Pro";
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    /* Width */
+    width: 450px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-top: 2px solid rgba(255,255,255,0.2);
+    color: #fff;
+    font-family: 'Josefin Slab';
+    letter-spacing: 0.1em;
+    cursor: default;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #3E2263;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 55px;
+    font-size: 18px;
+    line-height: 55px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+
+/* MENU AND CLOSE BUTTONS */
+
+#menu-toggle {
+    z-index: 2;
+    position: fixed;
+    bottom: 0px;
+    background: rgba(0,0,0,0);
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #0D445F;
+    border: 0px;
+}
+
+#menu-toggle-right {
+    z-index: 2;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0,0,0,0);
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #0D445F;
+    border: 0px;
+}
+
+#menu-toggle-mid {
+    z-index: 2;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    background: rgba(0,0,0,0);
+    font-family: 'Josefin Slab';
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #0D445F;
+    border: 0px;
+}
+
+#menu-close {
+    background: rgba(0,0,0,0.25);
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    color: white;
+}
+
+#menu-header{
+    font-family: 'Josefin Slab';
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0D445F;
+    margin-bottom: 10em;
+    letter-spacing: 0em;
+}
+
+#sidebar-wrapper.active {
+    left: 250px;
+    /* Width */
+    width: 450px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 5px 5px 0 0;
+}
+
+.btn-main {
+    width:250px;
+}
+
+.dropdown-menu {
+    width:250px;
+}
+
+/* top links */
+
+#nav
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1.5em 0 1.5em 0;
+    z-index: 1;
+    overflow: hidden;
+}
+        
+#nav > ul > li
+{
+    display: inline-block;
+}
+
+
+#nav > ul > li > a,
+#nav > ul > li > span
+{
+    display: block;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+}
+
+
+
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headertext {
+    margin-left:10%;
+    width:70%;
+}
+
+#logo {
+    position:absolute;
+    top:1em;
+    left:1em;
+    z-index: 2;
+}
+
+#jorma {
+    position:absolute;
+    top:1em;
+    right:1em;
+    z-index: 2;
+}
