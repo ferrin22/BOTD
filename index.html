@@ -31,6 +31,9 @@
     <!-- Address Bar Icon -->
     <link rel="shortcut icon" href="img/ico3.ico" />
 
+    <!-- Form Email -->
+    <script src="email/validation.js" type="text/javascript"></script>
+
 </head>
 
 <body>
@@ -45,7 +48,7 @@
         </div>
         <div class="modal-body">
         <address> 
-            For any questions, comments, concerns, please email: 
+            For any questions, comments, or concerns, please email: 
             <a href="team@bangerotd.com">Team@BangerOTD.com</a>
         </address> <br>
 
@@ -65,10 +68,20 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Contact</h4>
+          <h4 class="modal-title">Got Bangers?</h4>
         </div>
         <div class="modal-body">
-            Please email Song Titles and Artists to: Songs@BangerOTD.com
+                    <form role="form">
+                      <div class="form-group">
+                        <label for="email">Song Title:</label>
+                        <input type="email" class="form-control" id="email">
+                      </div>
+                      <div class="form-group">
+                        <label for="pwd">Artist:</label>
+                        <input type="email" class="form-control" id="pwd">
+                      </div>
+                      <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
