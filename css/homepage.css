@@ -148,11 +148,11 @@ hr.small {
     border: 0px;
 }
 
-#menu-toggle-right {
+#menu-toggle-mid {
     z-index: 2;
     position: fixed;
     bottom: 0px;
-    right: 0px;
+    left: 50%;
     background: rgba(0,0,0,0);
     font-family: 'Josefin Slab';
     font-weight: bold;
@@ -162,11 +162,11 @@ hr.small {
     border: 0px;
 }
 
-#menu-toggle-mid {
+#menu-toggle-right {
     z-index: 2;
     position: fixed;
     bottom: 0px;
-    left: 50%;
+    right: 0px;
     background: rgba(0,0,0,0);
     font-family: 'Josefin Slab';
     font-weight: bold;
@@ -283,3 +283,40 @@ hr.small {
     right:1em;
     z-index: 2;
 }
+
+    /* My Modal */
+
+.btn:focus {
+    outline: none;
+}
+
+.modal-title {
+    font-family: 'Josefin Slab';
+}
+
+.modal-body {
+    font-family: 'Josefin Slab';
+}
+
+.form-group {
+    max-width: 100%;
+}
+
+#song-title {
+    z-index: 2;
+    top: 20%;
+    position: relative;
+    font-family: 'Josefin Slab';
+    font-size: 20pt;
+    color: #211E5B;
+    height: 0px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+
