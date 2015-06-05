@@ -322,6 +322,12 @@ p {
 }
 
 @media only screen and (max-width: 400px) {
+    p {
+        font-size: 95%;
+    }
+    #song-title {
+        font-size: 95%;
+    }
     #menu-toggle {
         font-size: 70%;
     }
