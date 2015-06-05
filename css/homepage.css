@@ -109,7 +109,6 @@ hr.small {
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;
-    background: #3E2263;
 }
 
 .sidebar-nav li a:active,
@@ -323,12 +322,6 @@ p {
 }
 
 @media only screen and (max-width: 400px) {
-    p {
-        font-size: 90%;
-    }
-    #song-title {
-        font-size: 90%;
-    }
     #menu-toggle {
         font-size: 70%;
     }
