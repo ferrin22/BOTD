@@ -271,6 +271,7 @@ hr.small {
 
 #logo {
     position:absolute;
+    width: 190px;
     top:1em;
     left:1em;
     z-index: 2;
@@ -281,6 +282,7 @@ hr.small {
     top:1em;
     right:1em;
     z-index: 2;
+    width: 80px;
 }
 
     /* My Modal */
@@ -337,6 +339,12 @@ p {
     }
     #menu-toggle-right {
         font-size: 70%;
+    }
+    #logo {
+        width: 100px;
+    }
+    #jorma {
+        width: 35px;
     }
 }
 
