@@ -326,6 +326,18 @@ p {
     p {
         font-size: 5%;
     }
+    #song-title {
+        font-size: 10%;
+    }
+    #menu-toggle {
+        font-size: 10%;
+    }
+    #menu-toggle-mid {
+        font-size: 10%;
+    }
+    #menu-toggle-right {
+        font-size: 10%;
+    }
 }
 
 
