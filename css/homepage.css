@@ -302,6 +302,12 @@ hr.small {
     max-width: 100%;
 }
 
+@media only screen and (max-width: 400px) {
+    p {
+        font-size: 5%;
+    }
+}
+
 #song-title {
     z-index: 2;
     top: 20%;
