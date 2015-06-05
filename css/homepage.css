@@ -307,7 +307,7 @@ hr.small {
     top: 20%;
     position: relative;
     font-family: 'Josefin Slab';
-    font-size: 300%;
+    font-size: 30pt;
     font-weight: bold;
     color: #211E5B;
     height: 0px;
@@ -324,19 +324,19 @@ p {
 
 @media only screen and (max-width: 400px) {
     p {
-        font-size: 5%;
+        font-size: 90%;
     }
     #song-title {
-        font-size: 10%;
+        font-size: 90%;
     }
     #menu-toggle {
-        font-size: 10%;
+        font-size: 90%;
     }
     #menu-toggle-mid {
-        font-size: 10%;
+        font-size: 90%;
     }
     #menu-toggle-right {
-        font-size: 10%;
+        font-size: 90%;
     }
 }
 
