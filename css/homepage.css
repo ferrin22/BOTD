@@ -323,10 +323,10 @@ p {
 
 @media only screen and (max-width: 400px) {
     p {
-        font-size: 110%;
+        font-size: 90%;
     }
     #song-title {
-        font-size: 145%;
+        font-size: 165%;
     }
     #menu-toggle {
         font-size: 70%;
