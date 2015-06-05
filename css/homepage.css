@@ -325,7 +325,7 @@ p {
 
 @media only screen and (max-width: 400px) {
     p {
-        font-size: 70%;
+        font-size: 45%;
     }
     #song-title {
         font-size: 180%;
