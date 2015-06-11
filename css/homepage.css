@@ -335,7 +335,7 @@ p {
     }
     #menu-toggle-mid {
         font-size: 70%;
-        left: 40%;
+        left: 38%;
     }
     #menu-toggle-right {
         font-size: 70%;
@@ -348,6 +348,66 @@ p {
     }
 }
 
+@media only screen and (min-width: 1850px) {
+    p {
+        font-size: 70%;
+    }
+    #song-title {
+        font-size: 450%;
+    }
+    #menu-toggle {
+        font-size: 200%;
+    }
+    #menu-toggle-mid {
+        font-size: 200%;
+        left: 50%;
+    }
+    #menu-toggle-right {
+        font-size: 200%;
+    }
+    #logo {
+        width: 350px;
+    }
+    #jorma {
+        width: 120px;
+    }
+}
 
+@media only screen and (min-height: 1300px) {
+    p {
+        font-size: 70%;
+    }
+    #song-title {
+        font-size: 450%;
+    }
+    #menu-toggle {
+        font-size: 200%;
+    }
+    #menu-toggle-mid {
+        font-size: 200%;
+        left: 50%;
+    }
+    #menu-toggle-right {
+        font-size: 200%;
+    }
+    #logo {
+        width: 350px;
+    }
+    #jorma {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #menu-toggle-mid {
+        left: 46%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #menu-toggle-mid {
+        left: 50%;
+    }
+}
 
 
