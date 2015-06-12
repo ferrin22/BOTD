@@ -397,7 +397,7 @@ p {
     }
     #menu-toggle-mid {
         font-size: 70%;
-        left: 45%;
+        left: 40%;
     }
     #menu-toggle-right {
         font-size: 70%;
@@ -412,7 +412,7 @@ p {
 
 @media only screen and (max-width: 400px) {
     #menu-toggle-mid {
-        left: 38%;
+        left: 40%;
     }
 }
 
