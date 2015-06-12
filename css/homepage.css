@@ -80,8 +80,8 @@ hr.small {
 .sidebar-nav {
     position: absolute;
     top: 0;
-    /* Width */
-    width: 394px;
+    /* Width 394*/
+    width: 374px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -197,7 +197,7 @@ hr.small {
 #sidebar-wrapper.active {
     left: 250px;
     /* Width */
-    width: 394px;
+    width: 374px;
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -ms-transition: all 0.4s ease 0s;
