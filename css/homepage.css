@@ -408,6 +408,9 @@ p {
     #jorma {
         width: 35px;
     }
+    iframe {
+        width: 35%;
+    }
 }
 
 @media only screen and (max-width: 400px) {
