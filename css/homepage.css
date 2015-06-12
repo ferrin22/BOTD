@@ -410,6 +410,7 @@ p {
     }
     iframe {
         height: 105px;
+        width: 55%;
     }
 }
 
