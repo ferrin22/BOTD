@@ -53,19 +53,6 @@ body {
     background-color: rgba(255,255,255,0.8);
 }
 
-.btn-primary {
-    z-index: 3;
-    position: fixed;
-    font-family: 'Josefin Slab';
-    font-weight: bold;
-    font-size: 1em;
-    text-transform: uppercase;
-    border: 0px;
-    background-color: #211E5B;
-    color: white;
-    opacity: .5;
-}
-
 /* Custom Horizontal Rule */
 
 hr.small {
@@ -148,44 +135,44 @@ hr.small {
 /* MENU AND CLOSE BUTTONS */
 
 #menu-toggle {
-    /*z-index: 2;
-    position: fixed;*/
+    z-index: 2;
+    position: fixed;
     bottom: 0px;
-    /*background: #211E5B;
+    background: rgba(0,0,0,0);
     font-family: 'Josefin Slab';
     font-weight: bold;
     font-size: 1em;
     text-transform: uppercase;
-    color: #0D445F;
-    border: 0px;*/
+    color: white;
+    border: 0px;
 }
 
 #menu-toggle-mid {
-    /*z-index: 2;
-    position: fixed;*/
+    z-index: 2;
+    position: fixed;
     bottom: 0px;
     left: 46%;
-    /*background: rgba(0,0,0,0);
+    background: rgba(0,0,0,0);
     font-family: 'Josefin Slab';
     font-weight: bold;
     font-size: 1em;
     text-transform: uppercase;
-    color: #0D445F;
-    border: 0px;*/
+    color: white;
+    border: 0px;
 }
 
 #menu-toggle-right {
-    /*z-index: 2;
-    position: fixed;*/
+    z-index: 2;
+    position: fixed;
     bottom: 0px;
     right: 0px;
-    /*background: rgba(0,0,0,0);
+    background: rgba(0,0,0,0);
     font-family: 'Josefin Slab';
     font-weight: bold;
     font-size: 1em;
     text-transform: uppercase;
-    color: #0D445F;
-    border: 0px;*/
+    color: white;
+    border: 0px;
 }
 
 #menu-close {
