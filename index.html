@@ -44,15 +44,13 @@
 
         </script>
 
-</head>
 
-<body>
 
-    <!-- *** Snippet Box *** -->
-<table cellpadding="0" cellspacing="0" border="0">
-  <tr>
+        <!-- *** Snippet Box *** -->
+    <table cellpadding="0" cellspacing="0" border="0">
+    <tr>
     <td class="s">
-<!--Use description meta tag, if non-empty, in place of snippet-->
+        <!--Use description meta tag, if non-empty, in place of snippet-->
       <xsl:choose>
         <xsl:when test="MT/@N='description' and MT/@V!=''">
           <xsl:value-of select="MT[@N = 'description']/@V"/>
@@ -66,6 +64,11 @@
     <meta name="description" content="An excellent nymph for pocket water or 
     tight-line nymphing. The high proportion of wire tied into the body makes 
     the copper john sink quickly to depth." />
+
+</head>
+
+<body>
+
   <!-- Modal Mid -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-lg">
