@@ -288,6 +288,7 @@ hr.small {
 #brick {
     height: 200px;
     width: 200px;
+    position:absolute;
 }
 
     /* My Modal */
