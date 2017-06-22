@@ -286,12 +286,12 @@ hr.small {
 }
 
 #brick {
-    height: 200px;
-    width: 200px;
     position:absolute;
     top:1em;
     right:1em;
     z-index: 2;
+    height: 200px;
+    width: 200px;
 }
 
     /* My Modal */
