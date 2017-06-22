@@ -285,6 +285,14 @@ hr.small {
     width: 80px;
 }
 
+#brick {
+    position:absolute;
+    width: 190px;
+    top:1em;
+    left:1em;
+    z-index: 2;
+}
+
     /* My Modal */
 
 .btn:focus {
