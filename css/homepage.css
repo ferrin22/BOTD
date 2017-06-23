@@ -375,12 +375,12 @@ p.dashed {
     #menu-toggle-right {
         font-size: 200%;
     }
-    #logo {
+    /*#logo {
         width: 350px;
     }
     #jorma {
         width: 120px;
-    }
+    }*/
 }
 
 @media only screen and (min-height: 1300px) {
@@ -400,12 +400,12 @@ p.dashed {
     #menu-toggle-right {
         font-size: 200%;
     }
-    #logo {
+    /*#logo {
         width: 350px;
     }
     #jorma {
         width: 120px;
-    }
+    }*/
 }
 
 @media only screen and (max-width: 900px) {
@@ -437,12 +437,12 @@ p.dashed {
     #menu-toggle-right {
         font-size: 70%;
     }
-    #logo {
+    /*#logo {
         width: 120px;
     }
     #jorma {
         width: 35px;
-    }
+    }*/
     iframe {
         height: 115px;
         width: 55%;
