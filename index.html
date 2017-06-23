@@ -92,18 +92,42 @@
   </div>
 </div>
 
+<style> 
+div {
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left: center; top: center;}
+}
+</style>
 
     <!-- Song Title & Artist & Soundcloud -->
     <div align="center" id="song-title">
-    <br> Contract
-    <p> GTA ft. IAMSU! </p>
+    <p class="solid">Contract</p>
+    <p class="dashed">GTA ft. IAMSU!</p>
 
       <!-- Soundcloud code here.  45% by 150 -->
       <iframe width="45%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/286589548&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
     </div>
     <!-- BOTD Logo -->
-    <img id="logo" src="img/Logo2.png" alt="Banger">
+    <img id="logo" src="img/Logo4.png" alt="Banger">
     <!-- jorma logo -->
     <!--<a href="https://www.flickr.com/photos/flashcurd/" target="_blank">
         <img id="jorma" src="img/dom.png" alt="jorma.">

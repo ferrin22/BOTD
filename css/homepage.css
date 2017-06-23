@@ -269,9 +269,17 @@ hr.small {
     width:70%;
 }
 
-#logo {
+/*#logo {
     position:absolute;
     width: 190px;
+    top:1em;
+    left:1em;
+    z-index: 2;
+}*/
+
+#logo {
+    position:absolute;
+    width: 90px;
     top:1em;
     left:1em;
     z-index: 2;
@@ -320,6 +328,32 @@ hr.small {
 
 p {
     color: black;
+    font-size: 15pt;
+    font-weight: normal;
+}
+
+p.solid {
+    border-style: solid;
+    background-color: #211E5B;
+    border-width: 0;
+    width: 450px;
+    opacity: 0.8;
+    position: relative;
+    font-family: 'Josefin Slab';
+    font-size: 30pt;
+    font-weight: bold;
+    color: white;
+}
+
+p.dashed {
+    border-style: solid;
+    background-color: #0D445F;
+    border-width: 0;
+    width: 650px;
+    opacity: 0.8;
+    position: relative;
+    font-family: 'Josefin Slab';
+    color: white;
     font-size: 15pt;
     font-weight: normal;
 }
