@@ -358,7 +358,7 @@ p.dashed {
     font-weight: lighter;
 }
 
-/*@media only screen and (min-width: 1850px) {
+@media only screen and (min-width: 1850px) {
     p {
         font-size: 70%;
     }
@@ -453,7 +453,7 @@ p.dashed {
     #menu-toggle-mid {
         left: 40%;
     }
-}*/
+}
 
 #secret {
     z-index: 4;
