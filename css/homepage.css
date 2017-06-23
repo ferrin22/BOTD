@@ -339,7 +339,7 @@ p.solid {
     width: 450px;
     opacity: 0.8;
     position: relative;
-    font-family: 'Josefin Slab';
+    /*font-family: 'Josefin Slab';*/
     font-size: 30pt;
     font-weight: bold;
     color: white;
@@ -352,7 +352,7 @@ p.dashed {
     width: 650px;
     opacity: 0.8;
     position: relative;
-    font-family: 'Josefin Slab';
+    /*font-family: 'Josefin Slab';*/
     color: white;
     font-size: 15pt;
     font-weight: normal;
