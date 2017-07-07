@@ -422,13 +422,6 @@ p.dashed {
     }
 }
 
-/* mobile landscape */
-@media only screen and (max-height: 800px) {
-    #logo {
-        width: 1%;
-    }
-}
-
 /* mobile */
 @media only screen and (max-width: 700px) { 
     p {
