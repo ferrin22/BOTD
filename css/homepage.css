@@ -420,12 +420,13 @@ p.dashed {
     }
 }
 
-@media only screen and (max-width: 700px) {
+/* mobile */
+@media only screen and (max-width: 700px) { 
     p {
         font-size: 45%;
     }
     #song-title {
-        font-size: 180%;
+        font-size: 160%;
     }
     #menu-toggle {
         font-size: 70%;
@@ -437,15 +438,15 @@ p.dashed {
     #menu-toggle-right {
         font-size: 70%;
     }
-    /*#logo {
-        width: 120px;
+    #logo {
+        width: 15%;
     }
-    #jorma {
+    /* #jorma {
         width: 35px;
-    }*/
+    } */
     iframe {
-        height: 115px;
-        width: 55%;
+        height: 80px;
+        width: 60%;
     }
 }
 
