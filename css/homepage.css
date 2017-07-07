@@ -423,9 +423,9 @@ p.dashed {
 }
 
 /* mobile landscape */
-@media only screen and (max-height: 700px) {
+@media only screen and (max-height: 800px) {
     #logo {
-        width: 5%;
+        width: 1%;
     }
 }
 
